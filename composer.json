@@ -1,0 +1,19 @@
+{
+    "name": "riskified/advice-iyzico",
+    "type": "magento2-module",
+    "description": "Riskified decider module for Magento 2",
+    "version": "1.0.0",
+    "require": {
+        "php": ">=7.4",
+        "magento/framework": ">=100.1.0",
+        "riskified/php_sdk": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Riskified\\AdviceIyzico\\": ""
+        }
+    }
+}
