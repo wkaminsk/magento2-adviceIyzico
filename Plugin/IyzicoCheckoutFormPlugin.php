@@ -8,9 +8,9 @@ use Magento\Framework\Registry;
 use Magento\Quote\Api\CartRepositoryInterface;
 use Magento\Sales\Model\OrderFactory;
 use Riskified\Decider\Model\Api\Api;
-use Riskified\Decider\Model\Api\Builder\Advice as AdviceBuilder;
+use Riskified\Advice\Model\Builder\Advice as AdviceBuilder;
 use Riskified\Decider\Model\Api\Log as Logger;
-use Riskified\Decider\Model\Api\Request\Advice as AdviceRequest;
+use Riskified\Advice\Model\Request\Advice as AdviceRequest;
 use Magento\Quote\Model\QuoteIdMaskFactory;
 use Riskified\Decider\Model\Api\Order as OrderApi;
 
